@@ -1,4 +1,3 @@
-build\*.*
-
-doc\pics\*.*
-database\*.*
+builds
+database
+pics
