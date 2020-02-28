@@ -14,19 +14,20 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Stuff" Type="Folder">
+			<Item Name="AddChecksum.vi" Type="VI" URL="../DBAL/methods/BIN/AddChecksum.vi"/>
 			<Item Name="DBAL_TAGpropEdit.ctl" Type="VI" URL="../DBAL/controls/DBAL_TAGpropEdit.ctl"/>
+			<Item Name="DBAL_TAGprops.ctl" Type="VI" URL="../DBAL/controls/DBAL_TAGprops.ctl"/>
 			<Item Name="GenerateAlotOfSignals.vi" Type="VI" URL="../FAMM/GenerateAlotOfSignals.vi"/>
+			<Item Name="ScrambleAddChecksumWrite.vi" Type="VI" URL="../DBAL/methods/BIN/ScrambleAddChecksumWrite.vi"/>
 		</Item>
-		<Item Name="AddChecksum.vi" Type="VI" URL="../DBAL/methods/BIN/AddChecksum.vi"/>
 		<Item Name="AVPP.lvclass" Type="LVClass" URL="../AVPP/AVPP.lvclass"/>
 		<Item Name="DBAL-BIN.lvclass" Type="LVClass" URL="../DBAL/DBAL-BIN.lvclass"/>
 		<Item Name="DBAL-SQLite.lvclass" Type="LVClass" URL="../DBAL/DBAL-SQLite.lvclass"/>
 		<Item Name="DBAL.lvclass" Type="LVClass" URL="../DBAL/DBAL.lvclass"/>
-		<Item Name="DBAL_TAGprops.ctl" Type="VI" URL="../DBAL/controls/DBAL_TAGprops.ctl"/>
 		<Item Name="FAMM.lvclass" Type="LVClass" URL="../FAMM/FAMM.lvclass"/>
 		<Item Name="HISW.lvclass" Type="LVClass" URL="../HISW/HISW.lvclass"/>
+		<Item Name="MemStoreDatagram.ctl" Type="VI" URL="../FAMM/controls/MemStoreDatagram.ctl"/>
 		<Item Name="PAQ-memory.lvclass" Type="LVClass" URL="../FAMM/PAQ-memory.lvclass"/>
-		<Item Name="ScrambleAddChecksumWrite.vi" Type="VI" URL="../DBAL/methods/BIN/ScrambleAddChecksumWrite.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>

@@ -105,6 +105,15 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
+	<Item Name="StorePAQ_10mil.vi" Type="VI" URL="../methods/StorePAQ_10mil.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(L!!!!&amp;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!/$%:"45UO&lt;(:D&lt;'&amp;T=Q!!#%:"45UA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!N!#A!%6'FN:1!!#U!$!!6J&lt;G2F?!!71%!!!@````]!#!B597&gt;*&lt;G2F?!!!$5!+!!&gt;F&lt;'6N:7ZU!"*!1!!"`````Q!+"'2B&gt;'%!!""!1!!"`````Q!+!WVB?!!11%!!!@````]!#A.N;7Y!$5!(!!&gt;F&lt;'6N:7ZU!"2!1!!"`````Q!/"H.U982V=Q!!%%!Q`````Q:4&lt;X6S9W5!!%-!]1!!!!!!!!!"&amp;%VF&lt;6.U&lt;X*F2'&amp;U97&gt;S97UO9X2M!#:!5!!(!!=!#1!,!!Q!$1!0!"!.5X2P=G6%982B:X*B&lt;1!A1(!!(A!!$AR'15V.,GRW9WRB=X-!!!&gt;'15V.)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!%1!3!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!A!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!"-!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
+	</Item>
 	<Item Name="Test-FAMM.vi" Type="VI" URL="../Test-FAMM.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
