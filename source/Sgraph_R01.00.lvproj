@@ -27,6 +27,8 @@
 		<Item Name="FAMM.lvclass" Type="LVClass" URL="../FAMM/FAMM.lvclass"/>
 		<Item Name="HISW.lvclass" Type="LVClass" URL="../HISW/HISW.lvclass"/>
 		<Item Name="PAQ-memory.lvclass" Type="LVClass" URL="../FAMM/PAQ-memory.lvclass"/>
+		<Item Name="typedef_AverageAction.ctl" Type="VI" URL="../FAMM/controls/typedef_AverageAction.ctl"/>
+		<Item Name="typedef_Level.ctl" Type="VI" URL="../FAMM/controls/typedef_Level.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
