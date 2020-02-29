@@ -26,7 +26,6 @@
 		<Item Name="DBAL.lvclass" Type="LVClass" URL="../DBAL/DBAL.lvclass"/>
 		<Item Name="FAMM.lvclass" Type="LVClass" URL="../FAMM/FAMM.lvclass"/>
 		<Item Name="HISW.lvclass" Type="LVClass" URL="../HISW/HISW.lvclass"/>
-		<Item Name="MemStoreDatagram.ctl" Type="VI" URL="../FAMM/controls/MemStoreDatagram.ctl"/>
 		<Item Name="PAQ-memory.lvclass" Type="LVClass" URL="../FAMM/PAQ-memory.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
