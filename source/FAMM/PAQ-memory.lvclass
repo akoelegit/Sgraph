@@ -61,6 +61,15 @@ Up to eight objects are expected to become instantiated.</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
+	<Item Name="PAQmem_ReadAverage.vi" Type="VI" URL="../methods/PAQmem_ReadAverage.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(E!!!!&amp;1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!V!#A!(:7RF&lt;76O&gt;!!31%!!!@````]!"12E982B!!!11%!!!@````]!"1.N98A!%%"!!!(`````!!5$&lt;7FO!!V!"Q!(:7RF&lt;76O&gt;!!51%!!!@````]!#1:T&gt;'&amp;U&gt;8-!!":!5!!%!!9!"Q!)!!I(5G6T&gt;7RU=Q!O1(!!(A!!&amp;"*116%N&lt;76N&lt;X*Z,GRW9WRB=X-!!!Z116%N&lt;76N&lt;X*Z)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!,1!-!"7FO:'6Y!"*!1!!"`````Q!/"&amp;2"2X-!!!^!!Q!)=(*F&gt;F^Q&lt;H1!!!^!!Q!)&lt;'&amp;T&gt;&amp;^Q&lt;H1!!"R!5!!$!!]!%!!2$U.I&gt;7ZL2'6G;7ZJ&gt;'FP&lt;A!M1(!!(A!!&amp;"*116%N&lt;76N&lt;X*Z,GRW9WRB=X-!!!V116%N&lt;76N&lt;X*Z)'FO!&amp;1!]!!-!!-!"!!,!!Q!"!!%!!1!"!!.!!1!%A!4!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!!3!!!!!!%!&amp;!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+	</Item>
 	<Item Name="PAQmem_ReadOne.vi" Type="VI" URL="../methods/PAQmem_ReadOne.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%E!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!5%F""53VN:7VP=HEO&lt;(:D&lt;'&amp;T=Q!!$F""53VN:7VP=HEA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#R!=!!?!!!5%F""53VN:7VP=HEO&lt;(:D&lt;'&amp;T=Q!!$6""53VN:7VP=HEA;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -72,13 +81,13 @@ Up to eight objects are expected to become instantiated.</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
 	<Item Name="PAQmem_WriteOne.vi" Type="VI" URL="../methods/PAQmem_WriteOne.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)1!!!!&amp;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!5%F""53VN:7VP=HEO&lt;(:D&lt;'&amp;T=Q!!$F""53VN:7VP=HEA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!N!#A!%6'FN:1!!#U!$!!6J&lt;G2F?!!71%!!!@````]!#!B597&gt;*&lt;G2F?!!!$5!+!!&gt;F&lt;'6N:7ZU!"*!1!!"`````Q!+"'2B&gt;'%!!""!1!!"`````Q!+!WVB?!!11%!!!@````]!#A.N;7Y!$5!(!!&gt;F&lt;'6N:7ZU!"2!1!!"`````Q!/"H.U982V=Q!!%%!Q`````Q:4&lt;X6S9W5!!&amp;!!]1!!!!!!!!!#$%:"45UO&lt;(:D&lt;'&amp;T=R2.:7V4&gt;'^S:52B&gt;'&amp;H=G&amp;N,G.U&lt;!!G1&amp;!!"Q!(!!E!#Q!-!!U!$Q!1$6.U&lt;X*F2'&amp;U97&gt;S97U!,%"Q!"Y!!"135%&amp;2,7VF&lt;7^S?3ZM&gt;G.M98.T!!!.5%&amp;2,7VF&lt;7^S?3"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!"%!%A-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!4!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)&gt;!!!!&amp;1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$5!$!!&gt;1&lt;WFO&gt;'6S!!1!!!!O1(!!(A!!&amp;"*116%N&lt;76N&lt;X*Z,GRW9WRB=X-!!!Z116%N&lt;76N&lt;X*Z)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!,1!I!"&amp;2J&lt;75!!!N!!Q!&amp;;7ZE:8A!&amp;E"!!!(`````!!E)6'&amp;H37ZE:8A!!!V!#A!(:7RF&lt;76O&gt;!!31%!!!@````]!#Q2E982B!!!11%!!!@````]!#Q.N98A!%%"!!!(`````!!M$&lt;7FO!!V!"Q!(:7RF&lt;76O&gt;!!51%!!!@````]!$Q:T&gt;'&amp;U&gt;8-!!""!-0````]'5W^V=G.F!!"1!0%!!!!!!!!!!AR'15V.,GRW9WRB=X-5476N5X2P=G6%982B:X*B&lt;3ZD&gt;'Q!*E"1!!=!#!!+!!Q!$1!/!"!!%1V4&gt;'^S:52B&gt;'&amp;H=G&amp;N!#R!=!!?!!!5%F""53VN:7VP=HEO&lt;(:D&lt;'&amp;T=Q!!$6""53VN:7VP=HEA;7Y!91$Q!!Q!!Q!%!!5!"A!&amp;!!5!"1!&amp;!!=!"1!3!"-$!!"Y!!!.#!!!#1!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!&amp;!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074536980</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 </LVClass>
