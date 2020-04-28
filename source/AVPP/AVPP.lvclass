@@ -41,6 +41,15 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="AVPP_2_L2PAQ1sec.vi" Type="VI" URL="../methods/AVPP_2_L2PAQ1sec.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-]!!!!'!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!Q1$R!!!!!!!!!!%2&gt;(FQ:72F:F^-:8:F&lt;#ZD&gt;'Q!JU!7!!Q-4$"@5%&amp;28T%Q&lt;7FM$5QQ8V""56]R-$"N;7Q.4$&amp;@5%&amp;28T%Q-'VJ&lt;!N--&amp;^116&amp;@-8.F9QN--F^116&amp;@-8.F9QR--&amp;^116&amp;@-4"T:7--4$.@5%&amp;28T%Q=W6D#UQU8V""56]R&lt;7FO$%QV8V""56]R-'VJ&lt;AJ-.F^116&amp;@-GBS#UQX8V""56]R:'&amp;Z#EQY8V""56]R&gt;WM!"5RF&gt;G6M!""!)1N);7&gt;I:8*-:8:F&lt;!!01!-!#("S:8:@='ZU!!!01!-!#'RB=X2@='ZU!!"!!0%!!!!!!!!!!2FU?8"F:'6G8U&amp;W:8*B:W6"9X2J&lt;WYO9X2M!"Z!5!!%!!1!"1!'!!=+4G6Y&gt;&amp;^-:8:F&lt;!!!"!!!!#*!=!!?!!!/$%&amp;75&amp;!O&lt;(:D&lt;'&amp;T=Q!!#%&amp;75&amp;!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%9!]1!!!!!!!!!"'82Z='6E:7:@18:F=G&amp;H:5&amp;D&gt;'FP&lt;CZD&gt;'Q!*%"1!!1!"!!&amp;!!9!"R""&gt;G6S97&gt;F17.U;7^O)%F/!!!-1&amp;1!"A25;7VF!!!*1!-!!V2B:Q!51%!!!@````]!$A:515&gt;J:(A!!!V!"Q!'=X2B&gt;(6T!!!51%!!!@````]!%!:T&gt;'&amp;U&gt;8-!!!N!#A!%:'&amp;U91!!%E"!!!(`````!")%:'&amp;U91!!%%!Q`````Q:4&lt;X6S9W5!!%1!]1!!!!!!!!!"&amp;X2Z='6E:7:@5%&amp;2:'&amp;U97&gt;S97UO9X2M!#2!5!!&amp;!!U!$Q!2!"-!&amp;!Z116&amp;E982B:X*B&lt;3"*4A!!)%"Q!"Y!!!Y-16:15#ZM&gt;G.M98.T!!!(16:15#"J&lt;A"B!0!!$!!$!!A!#1!+!!E!#1!*!!E!#Q!-!"5!&amp;A-!!(A!!!U)!!!*!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!)!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!8!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 	</Item>
 	<Item Name="AVPP_Constructor.vi" Type="VI" URL="../methods/AVPP_Constructor.vi">
@@ -59,7 +68,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972434</Property>
 	</Item>
 	<Item Name="ProcessPAQsample.vi" Type="VI" URL="../methods/ProcessPAQsample.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!((!!!!%A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!/$%&amp;75&amp;!O&lt;(:D&lt;'&amp;T=Q!!#%&amp;75&amp;!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!R!6!!'"&amp;2J&lt;75!!!F!!Q!$6'&amp;H!"2!1!!"`````Q!)"F2"2WFE?!!!$5!(!!:T&gt;'&amp;U&gt;8-!!"2!1!!"`````Q!+"H.U982V=Q!!#U!+!!2E982B!!!31%!!!@````]!$!2E982B!!!11$$`````"F.P&gt;8*D:1!!2!$R!!!!!!!!!!%8&gt;(FQ:72F:F^116&amp;E982B:X*B&lt;3ZD&gt;'Q!*%"1!!5!"Q!*!!M!$1!/$F""572B&gt;'&amp;H=G&amp;N)%F/!!!A1(!!(A!!$AR"6F"1,GRW9WRB=X-!!!&gt;"6F"1)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!$Q!1!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!"%!!!!!</Property>
@@ -68,7 +77,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972434</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 </LVClass>

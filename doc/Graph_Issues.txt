@@ -1,11 +1,15 @@
 Andre, 8 mar 2020
   vi: C:\Users\Andre\Documents\Sgraph\source\FAMM\methods\StorePAQ.vi
-  Bookmark: #TODO : Issue 0001 make shure that at buffer carry the data is stored in a correct way...
+  Bookmark: c make shure that at buffer carry the data is stored in a correct way...
   At the end of the buffer, if more data is saved then the buffer: make sure that the data is
   divided over the 'end of buffer' and 'begin of buffer'
+  Fixed 28-4-2020
 ------------------------------------------------------------------------------------------------
 Andre, 8 mar 2020
   vi: C:\Users\Andre\Documents\Sgraph\source\FAMM\methods\PAQmem_ReadAverage.vi
   Bookmark: #TODO : Issue 0002 if rollover occurs then get two chunks of data and paste them ... etc...
   This is the averaging routine, pasting multiple parts at rollover MUST still be implemented!
+  Fixed 28-4-2020
 -------------------------------------------------------------------------------------------------
+Andre, 28 mar 2020
+  L2_1sec layer update NOK: needs debugging.

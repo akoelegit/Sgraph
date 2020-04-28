@@ -13,6 +13,9 @@
 		<Item Name="Common" Type="Folder" URL="../Common">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="doc" Type="Folder" URL="../../doc">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Stuff" Type="Folder">
 			<Item Name="AddChecksum.vi" Type="VI" URL="../DBAL/methods/BIN/AddChecksum.vi"/>
 			<Item Name="DBAL_TAGpropEdit.ctl" Type="VI" URL="../DBAL/controls/DBAL_TAGpropEdit.ctl"/>
