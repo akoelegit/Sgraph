@@ -11,5 +11,26 @@ Andre, 8 mar 2020
   This is the averaging routine, pasting multiple parts at rollover MUST still be implemented!
   Fixed 28-4-2020
 -------------------------------------------------------------------------------------------------
-Andre, 28 mar 2020
-  L2_1sec layer update NOK: needs debugging.
+Andre, 29 apr 2020
+  HISW & AVPP & FAMM: All Layers averaging implemented for PAQ 10 msec sampling.
+-------------------------------------------------------------------------------------------------
+Andre, 30 apr 2020
+  HISW & AVPP & FAMM: All Layers averaging implemented for PAQ 100 msec sampling.
+  HISW & AVPP & FAMM: All Layers averaging implemented for PAQ 1 sec sampling.
+  HISW & AVPP & FAMM: All Layers averaging implemented for PAQ 10 sec sampling.
+-------------------------------------------------------------------------------------------------
+Andre, 1 may 2020
+  Start implementing DBAL data storage from within FAMM,
+  starting with binary (BIN) database type, 9 may: finished, samples are saved and
+  retrieved without glitches.
+-------------------------------------------------------------------------------------------------
+Andre, 9 may 2020
+  Readback from RAM with rollover error.
+  Seems to do with reading time 'Zero' (1904) on buffer rollover.
+  Fixed 24 may 2020
+-------------------------------------------------------------------------------------------------
+Andre, 24 may2020
+  Saving of DBAL (bin) Layer ready for PAQ data.
+  Now start readback into RAM at startup.
+  Saving test: 10 msec/sample @ 100 tags
+  1GB/hr = 25GB/day = 1TB/year
