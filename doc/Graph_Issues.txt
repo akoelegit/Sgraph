@@ -29,11 +29,8 @@ Andre, 9 may 2020
   Seems to do with reading time 'Zero' (1904) on buffer rollover.
   Fixed 24 may 2020
 -------------------------------------------------------------------------------------------------
-Andre, 24 may 2020
+Andre, 24 may2020
   Saving of DBAL (bin) Layer ready for PAQ data.
   Now start readback into RAM at startup.
   Saving test: 10 msec/sample @ 100 tags
   1GB/hr = 25GB/day = 1TB/year
--------------------------------------------------------------------------------------------------
-Henrick, 27 may 2020
-  Github repository installed, familiarization.
