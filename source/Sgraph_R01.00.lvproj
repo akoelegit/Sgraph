@@ -13,6 +13,9 @@
 		<Item Name="Common" Type="Folder" URL="../Common">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="DataWriters" Type="Folder">
+			<Item Name="WritePAQsample.vi" Type="VI" URL="../HISW/methods/WritePAQsample.vi"/>
+		</Item>
 		<Item Name="doc" Type="Folder" URL="../../doc">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -35,6 +38,7 @@
 		<Item Name="Gviewer.lvclass" Type="LVClass" URL="../Gview/Gviewer.lvclass"/>
 		<Item Name="HISW.lvclass" Type="LVClass" URL="../HISW/HISW.lvclass"/>
 		<Item Name="PAQ-memory.lvclass" Type="LVClass" URL="../FAMM/PAQ-memory.lvclass"/>
+		<Item Name="Typedef_Gserver-init.ctl" Type="VI" URL="../Gserver/controls/Typedef_Gserver-init.ctl"/>
 		<Item Name="Vsolver.lvclass" Type="LVClass" URL="../Vsolver/Vsolver.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -89,10 +93,13 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AVPP_2_LxPAQwrapper.vi" Type="VI" URL="../AVPP/methods/AVPP_2_LxPAQwrapper.vi"/>
+			<Item Name="DBsave.vi" Type="VI" URL="../FAMM/methods/DBsave.vi"/>
 			<Item Name="descramble.vi" Type="VI" URL="../DBAL/methods/BIN/descramble.vi"/>
+			<Item Name="GlobalClassRefs.vi" Type="VI" URL="../Common/controls/GlobalClassRefs.vi"/>
 			<Item Name="HISW_2_PAQ1sec.vi" Type="VI" URL="../AVPP/methods/HISW_2_PAQ1sec.vi"/>
 			<Item Name="HISW_2_PAQ10sec.vi" Type="VI" URL="../AVPP/methods/HISW_2_PAQ10sec.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Obtain-FAMM-Queue.vi" Type="VI" URL="../FAMM/methods/Obtain-FAMM-Queue.vi"/>
 			<Item Name="RemoveChecksum.vi" Type="VI" URL="../DBAL/methods/BIN/RemoveChecksum.vi"/>
 			<Item Name="scramble.vi" Type="VI" URL="../DBAL/methods/BIN/scramble.vi"/>
 			<Item Name="typedef_PAQdatagram.ctl" Type="VI" URL="../HISW/controls/typedef_PAQdatagram.ctl"/>

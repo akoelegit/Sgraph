@@ -34,3 +34,10 @@ Andre, 24 may2020
   Now start readback into RAM at startup.
   Saving test: 10 msec/sample @ 100 tags
   1GB/hr = 25GB/day = 1TB/year
+-------------------------------------------------------------------------------------------------
+Andre, 14 june 2020
+  Implemented Gserver and a new general test utility located in \Sgraph\source\Test\Test-Sgraph-system.vi
+  The Gserver now holds FAMM, Vsolver and AVPP objects.
+  Worked on class hiearchy
+-------------------------------------------------------------------------------------------------
+
