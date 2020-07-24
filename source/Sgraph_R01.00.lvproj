@@ -33,16 +33,20 @@
 		<Item Name="DBAL-BIN.lvclass" Type="LVClass" URL="../DBAL/DBAL-BIN.lvclass"/>
 		<Item Name="DBAL-SQLite.lvclass" Type="LVClass" URL="../DBAL/DBAL-SQLite.lvclass"/>
 		<Item Name="DBAL.lvclass" Type="LVClass" URL="../DBAL/DBAL.lvclass"/>
-		<Item Name="FAMM-attributes.ctl" Type="VI" URL="../FAMM/controls/FAMM-attributes.ctl"/>
 		<Item Name="FAMM.lvclass" Type="LVClass" URL="../FAMM/FAMM.lvclass"/>
 		<Item Name="Gserver.lvclass" Type="LVClass" URL="../Gserver/Gserver.lvclass"/>
 		<Item Name="Gviewer.lvclass" Type="LVClass" URL="../Gview/Gviewer.lvclass"/>
 		<Item Name="HISW.lvclass" Type="LVClass" URL="../HISW/HISW.lvclass"/>
 		<Item Name="PAQ-memory.lvclass" Type="LVClass" URL="../FAMM/PAQ-memory.lvclass"/>
+		<Item Name="typedef-DAQ-datagram.ctl" Type="VI" URL="../HISW/controls/typedef-DAQ-datagram.ctl"/>
 		<Item Name="typedef-functions.ctl" Type="VI" URL="../FAMM/controls/typedef-functions.ctl"/>
+		<Item Name="typedef-Qtype.ctl" Type="VI" URL="../HISW/controls/typedef-Qtype.ctl"/>
 		<Item Name="Typedef_Gserver-init.ctl" Type="VI" URL="../Gserver/controls/Typedef_Gserver-init.ctl"/>
 		<Item Name="Vsolver.lvclass" Type="LVClass" URL="../Vsolver/Vsolver.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -98,10 +102,12 @@
 			<Item Name="DBsave.vi" Type="VI" URL="../FAMM/methods/DBsave.vi"/>
 			<Item Name="descramble.vi" Type="VI" URL="../DBAL/methods/BIN/descramble.vi"/>
 			<Item Name="GlobalClassRefs.vi" Type="VI" URL="../Common/controls/GlobalClassRefs.vi"/>
+			<Item Name="Gserver-progress.vi" Type="VI" URL="../Gserver/methods/Gserver-progress.vi"/>
 			<Item Name="HISW_2_PAQ1sec.vi" Type="VI" URL="../AVPP/methods/HISW_2_PAQ1sec.vi"/>
 			<Item Name="HISW_2_PAQ10sec.vi" Type="VI" URL="../AVPP/methods/HISW_2_PAQ10sec.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Obtain-FAMM-Queue.vi" Type="VI" URL="../FAMM/methods/Obtain-FAMM-Queue.vi"/>
+			<Item Name="Obtain-Gserver-Queue.vi" Type="VI" URL="../Gserver/methods/Obtain-Gserver-Queue.vi"/>
 			<Item Name="RemoveChecksum.vi" Type="VI" URL="../DBAL/methods/BIN/RemoveChecksum.vi"/>
 			<Item Name="scramble.vi" Type="VI" URL="../DBAL/methods/BIN/scramble.vi"/>
 			<Item Name="typedef_FAMM_Query.ctl" Type="VI" URL="../FAMM/controls/typedef_FAMM_Query.ctl"/>
