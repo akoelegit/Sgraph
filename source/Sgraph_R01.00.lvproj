@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -42,11 +42,10 @@
 		<Item Name="typedef-functions.ctl" Type="VI" URL="../FAMM/controls/typedef-functions.ctl"/>
 		<Item Name="typedef-Qtype.ctl" Type="VI" URL="../HISW/controls/typedef-Qtype.ctl"/>
 		<Item Name="Typedef_Gserver-init.ctl" Type="VI" URL="../Gserver/controls/Typedef_Gserver-init.ctl"/>
+		<Item Name="Typedef_ServerActions.ctl" Type="VI" URL="../Gview/controls/Typedef_ServerActions.ctl"/>
+		<Item Name="Typedef_ViewPortMem.ctl" Type="VI" URL="../Gserver/controls/Typedef_ViewPortMem.ctl"/>
 		<Item Name="Vsolver.lvclass" Type="LVClass" URL="../Vsolver/Vsolver.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -101,7 +100,7 @@
 			<Item Name="AVPP_2_LxPAQwrapper.vi" Type="VI" URL="../AVPP/methods/AVPP_2_LxPAQwrapper.vi"/>
 			<Item Name="DBsave.vi" Type="VI" URL="../FAMM/methods/DBsave.vi"/>
 			<Item Name="descramble.vi" Type="VI" URL="../DBAL/methods/BIN/descramble.vi"/>
-			<Item Name="GlobalClassRefs.vi" Type="VI" URL="../Common/controls/GlobalClassRefs.vi"/>
+			<Item Name="FAMM-progress.vi" Type="VI" URL="../FAMM/methods/FAMM-progress.vi"/>
 			<Item Name="Gserver-progress.vi" Type="VI" URL="../Gserver/methods/Gserver-progress.vi"/>
 			<Item Name="HISW_2_PAQ1sec.vi" Type="VI" URL="../AVPP/methods/HISW_2_PAQ1sec.vi"/>
 			<Item Name="HISW_2_PAQ10sec.vi" Type="VI" URL="../AVPP/methods/HISW_2_PAQ10sec.vi"/>
@@ -111,6 +110,7 @@
 			<Item Name="RemoveChecksum.vi" Type="VI" URL="../DBAL/methods/BIN/RemoveChecksum.vi"/>
 			<Item Name="scramble.vi" Type="VI" URL="../DBAL/methods/BIN/scramble.vi"/>
 			<Item Name="typedef_FAMM_Query.ctl" Type="VI" URL="../FAMM/controls/typedef_FAMM_Query.ctl"/>
+			<Item Name="Typedef_Gserver-Replies.ctl" Type="VI" URL="../Gview/controls/Typedef_Gserver-Replies.ctl"/>
 			<Item Name="typedef_PAQdatagram.ctl" Type="VI" URL="../HISW/controls/typedef_PAQdatagram.ctl"/>
 			<Item Name="typedef_PAQsample.ctl" Type="VI" URL="../HISW/controls/typedef_PAQsample.ctl"/>
 		</Item>
