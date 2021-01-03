@@ -29,7 +29,7 @@ Andre, 9 may 2020
   Seems to do with reading time 'Zero' (1904) on buffer rollover.
   Fixed 24 may 2020
 -------------------------------------------------------------------------------------------------
-Andre, 24 may2020
+Andre, 24 may 2020
   Saving of DBAL (bin) Layer ready for PAQ data.
   Now start readback into RAM at startup.
   Saving test: 10 msec/sample @ 100 tags
@@ -40,4 +40,13 @@ Andre, 14 june 2020
   The Gserver now holds FAMM, Vsolver and AVPP objects.
   Worked on class hiearchy
 -------------------------------------------------------------------------------------------------
+Andre, 2 jan 2021
+  Migrate project to W7-LV2021 computer
+  Test upgrade to LV2021: OK
+  Fixed issues on existing example Test-Sgraph-system.vi
+  Start functionality for Gviewer instances
+-------------------------------------------------------------------------------------------------
+Andre, 3 jan 2021
+  Changed Dbase path to definable location from Gserver
+  Doc update FAMM / Gserver / Test tooling
 
