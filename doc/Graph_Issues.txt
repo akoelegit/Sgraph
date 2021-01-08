@@ -54,3 +54,11 @@ Andre, 5 jan 2021
   Context menu structure added: now fully functional and
   identical to menu bar structure.
 -------------------------------------------------------------------------------------------------
+Andre, 6 jan 2021
+  Work on Gview set timeline
+-------------------------------------------------------------------------------------------------
+Andre, 8 jan 2021
+  Create toolbar button navigation,
+  Graph cursor time indication, 
+  key press/release capture implemented
+-------------------------------------------------------------------------------------------------
