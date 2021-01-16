@@ -41,6 +41,7 @@
 		<Item Name="DBAL-SQLite.lvclass" Type="LVClass" URL="../DBAL/DBAL-SQLite.lvclass"/>
 		<Item Name="DBAL.lvclass" Type="LVClass" URL="../DBAL/DBAL.lvclass"/>
 		<Item Name="DrawToolGradient.vi" Type="VI" URL="../Gview/methods/DrawToolGradient.vi"/>
+		<Item Name="EditTagOneTag.ctl" Type="VI" URL="../Gview/controls/EditTagOneTag.ctl"/>
 		<Item Name="FAMM.lvclass" Type="LVClass" URL="../FAMM/FAMM.lvclass"/>
 		<Item Name="Gserver.lvclass" Type="LVClass" URL="../Gserver/Gserver.lvclass"/>
 		<Item Name="Gviewer.lvclass" Type="LVClass" URL="../Gview/Gviewer.lvclass"/>
@@ -48,6 +49,8 @@
 		<Item Name="KeyPress.ctl" Type="VI" URL="../Gview/controls/KeyPress.ctl"/>
 		<Item Name="PAQ-memory.lvclass" Type="LVClass" URL="../FAMM/PAQ-memory.lvclass"/>
 		<Item Name="ToolBarAppearance.ctl" Type="VI" URL="../Gview/controls/ToolBarAppearance.ctl"/>
+		<Item Name="Typedef_datarequest.ctl" Type="VI" URL="../Gview/controls/Typedef_datarequest.ctl"/>
+		<Item Name="Typedef_PeriodicUpdate.ctl" Type="VI" URL="../Gserver/controls/Typedef_PeriodicUpdate.ctl"/>
 		<Item Name="Vsolver.lvclass" Type="LVClass" URL="../Vsolver/Vsolver.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
