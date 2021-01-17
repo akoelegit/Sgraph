@@ -48,9 +48,6 @@
 		<Item Name="HISW.lvclass" Type="LVClass" URL="../HISW/HISW.lvclass"/>
 		<Item Name="KeyPress.ctl" Type="VI" URL="../Gview/controls/KeyPress.ctl"/>
 		<Item Name="PAQ-memory.lvclass" Type="LVClass" URL="../FAMM/PAQ-memory.lvclass"/>
-		<Item Name="ToolBarAppearance.ctl" Type="VI" URL="../Gview/controls/ToolBarAppearance.ctl"/>
-		<Item Name="Typedef_datarequest.ctl" Type="VI" URL="../Gview/controls/Typedef_datarequest.ctl"/>
-		<Item Name="Typedef_PeriodicUpdate.ctl" Type="VI" URL="../Gserver/controls/Typedef_PeriodicUpdate.ctl"/>
 		<Item Name="Vsolver.lvclass" Type="LVClass" URL="../Vsolver/Vsolver.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
