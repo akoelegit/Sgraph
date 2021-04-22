@@ -40,11 +40,14 @@
 		<Item Name="DBAL-BIN.lvclass" Type="LVClass" URL="../DBAL/DBAL-BIN.lvclass"/>
 		<Item Name="DBAL-SQLite.lvclass" Type="LVClass" URL="../DBAL/DBAL-SQLite.lvclass"/>
 		<Item Name="DBAL.lvclass" Type="LVClass" URL="../DBAL/DBAL.lvclass"/>
+		<Item Name="DBAL_FetchLatestFrom.ctl" Type="VI" URL="../DBAL/controls/DBAL_FetchLatestFrom.ctl"/>
 		<Item Name="FAMM.lvclass" Type="LVClass" URL="../FAMM/FAMM.lvclass"/>
 		<Item Name="Gserver.lvclass" Type="LVClass" URL="../Gserver/Gserver.lvclass"/>
 		<Item Name="Gviewer.lvclass" Type="LVClass" URL="../Gview/Gviewer.lvclass"/>
 		<Item Name="HISW.lvclass" Type="LVClass" URL="../HISW/HISW.lvclass"/>
+		<Item Name="MemoryMap.lvclass" Type="LVClass" URL="../MemMap/MemoryMap.lvclass"/>
 		<Item Name="PAQ-memory.lvclass" Type="LVClass" URL="../FAMM/PAQ-memory.lvclass"/>
+		<Item Name="PAQ_init.ctl" Type="VI" URL="../FAMM/controls/PAQ_init.ctl"/>
 		<Item Name="Vsolver.lvclass" Type="LVClass" URL="../Vsolver/Vsolver.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -120,8 +123,9 @@
 			<Item Name="HISW_2_PAQ1sec.vi" Type="VI" URL="../AVPP/methods/HISW_2_PAQ1sec.vi"/>
 			<Item Name="HISW_2_PAQ10sec.vi" Type="VI" URL="../AVPP/methods/HISW_2_PAQ10sec.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MenuItem.ctl" Type="VI" URL="/C/Users/Andre/Desktop/Menu/NEW/MenuItem.ctl"/>
+			<Item Name="MenuItem.ctl" Type="VI" URL="../Gview/menu/MenuItem.ctl"/>
 			<Item Name="MenuStructure.ctl" Type="VI" URL="../Gview/menu/MenuStructure.ctl"/>
+			<Item Name="MM-progress.vi" Type="VI" URL="../MemMap/Methods/MM-progress.vi"/>
 			<Item Name="Obtain-FAMM-Queue.vi" Type="VI" URL="../FAMM/methods/Obtain-FAMM-Queue.vi"/>
 			<Item Name="Obtain-Gserver-Queue.vi" Type="VI" URL="../Gserver/methods/Obtain-Gserver-Queue.vi"/>
 			<Item Name="RemoveChecksum.vi" Type="VI" URL="../DBAL/methods/BIN/RemoveChecksum.vi"/>

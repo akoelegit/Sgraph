@@ -62,3 +62,12 @@ Andre, 8 jan 2021
   Graph cursor time indication, 
   key press/release capture implemented
 -------------------------------------------------------------------------------------------------
+Andre, 6 mar 2021
+  Start implementing readback of existing data into RAM at startup.
+-------------------------------------------------------------------------------------------------
+Andre, 3 apr 2021
+  Readback succesful, but very slow due to fragmentation.
+  Defrag software optimized: OK that works, but this is only a temporary solution.
+  Final implementation for automatic defrag mus still be made
+-------------------------------------------------------------------------------------------------
+
