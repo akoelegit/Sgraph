@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -32,24 +33,28 @@
 			<Item Name="Typedef_Gserver-init.ctl" Type="VI" URL="../Gserver/controls/Typedef_Gserver-init.ctl"/>
 			<Item Name="Typedef_ServerActions.ctl" Type="VI" URL="../Gview/controls/Typedef_ServerActions.ctl"/>
 			<Item Name="Typedef_ViewPortMem.ctl" Type="VI" URL="../Gserver/controls/Typedef_ViewPortMem.ctl"/>
+			<Item Name="AttrIdleTimedEvents.ctl" Type="VI" URL="../Gview/controls/AttrIdleTimedEvents.ctl"/>
+			<Item Name="BinFolderPace.ctl" Type="VI" URL="../DBAL/methods/BIN/BinFolderPace.ctl"/>
 		</Item>
 		<Item Name="Test" Type="Folder" URL="../Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="AttrIdleTimedEvents.ctl" Type="VI" URL="../Gview/controls/AttrIdleTimedEvents.ctl"/>
 		<Item Name="AVPP.lvclass" Type="LVClass" URL="../AVPP/AVPP.lvclass"/>
 		<Item Name="DBAL-BIN.lvclass" Type="LVClass" URL="../DBAL/DBAL-BIN.lvclass"/>
 		<Item Name="DBAL-SQLite.lvclass" Type="LVClass" URL="../DBAL/DBAL-SQLite.lvclass"/>
 		<Item Name="DBAL.lvclass" Type="LVClass" URL="../DBAL/DBAL.lvclass"/>
-		<Item Name="DBAL_FetchLatestFrom.ctl" Type="VI" URL="../DBAL/controls/DBAL_FetchLatestFrom.ctl"/>
 		<Item Name="FAMM.lvclass" Type="LVClass" URL="../FAMM/FAMM.lvclass"/>
 		<Item Name="Gserver.lvclass" Type="LVClass" URL="../Gserver/Gserver.lvclass"/>
 		<Item Name="Gviewer.lvclass" Type="LVClass" URL="../Gview/Gviewer.lvclass"/>
 		<Item Name="HISW.lvclass" Type="LVClass" URL="../HISW/HISW.lvclass"/>
 		<Item Name="MemoryMap.lvclass" Type="LVClass" URL="../MemMap/MemoryMap.lvclass"/>
 		<Item Name="PAQ-memory.lvclass" Type="LVClass" URL="../FAMM/PAQ-memory.lvclass"/>
-		<Item Name="PAQ_init.ctl" Type="VI" URL="../FAMM/controls/PAQ_init.ctl"/>
 		<Item Name="Vsolver.lvclass" Type="LVClass" URL="../Vsolver/Vsolver.lvclass"/>
+		<Item Name="BIN-PAQ-day-GetFolderLocations.vi" Type="VI" URL="../DBAL/methods/BIN/BIN-PAQ-day-GetFolderLocations.vi"/>
+		<Item Name="BIN_PAQ_day_num_2_filename.vi" Type="VI" URL="../DBAL/methods/BIN/BIN_PAQ_day_num_2_filename.vi"/>
+		<Item Name="BIN-date2daynum.vi" Type="VI" URL="../DBAL/methods/BIN/BIN-date2daynum.vi"/>
+		<Item Name="DBAL_PAQ_TimeRange.ctl" Type="VI" URL="../DBAL/controls/DBAL_PAQ_TimeRange.ctl"/>
+		<Item Name="GV_ToolbarDiskType.vi" Type="VI" URL="../Gview/methods/GV_ToolbarDiskType.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -136,6 +141,8 @@
 			<Item Name="Typedef_Gserver-Replies.ctl" Type="VI" URL="../Gview/controls/Typedef_Gserver-Replies.ctl"/>
 			<Item Name="typedef_PAQdatagram.ctl" Type="VI" URL="../HISW/controls/typedef_PAQdatagram.ctl"/>
 			<Item Name="typedef_PAQsample.ctl" Type="VI" URL="../HISW/controls/typedef_PAQsample.ctl"/>
+			<Item Name="PAQ_File_Read_TimeRange.vi" Type="VI" URL="../DBAL/methods/BIN/PAQ_File_Read_TimeRange.vi"/>
+			<Item Name="BIN-filenum2daynum.vi" Type="VI" URL="../DBAL/methods/BIN/BIN-filenum2daynum.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
