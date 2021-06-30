@@ -55,6 +55,8 @@
 		<Item Name="BIN-date2daynum.vi" Type="VI" URL="../DBAL/methods/BIN/BIN-date2daynum.vi"/>
 		<Item Name="DBAL_PAQ_TimeRange.ctl" Type="VI" URL="../DBAL/controls/DBAL_PAQ_TimeRange.ctl"/>
 		<Item Name="GV_ToolbarDiskType.vi" Type="VI" URL="../Gview/methods/GV_ToolbarDiskType.vi"/>
+		<Item Name="DBAL_Command.ctl" Type="VI" URL="../DBAL/controls/DBAL_Command.ctl"/>
+		<Item Name="DBAL-commands.ctl" Type="VI" URL="../DBAL/controls/DBAL-commands.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -120,6 +122,8 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 			</Item>
 			<Item Name="AVPP_2_LxPAQwrapper.vi" Type="VI" URL="../AVPP/methods/AVPP_2_LxPAQwrapper.vi"/>
 			<Item Name="descramble.vi" Type="VI" URL="../DBAL/methods/BIN/descramble.vi"/>
@@ -141,8 +145,10 @@
 			<Item Name="Typedef_Gserver-Replies.ctl" Type="VI" URL="../Gview/controls/Typedef_Gserver-Replies.ctl"/>
 			<Item Name="typedef_PAQdatagram.ctl" Type="VI" URL="../HISW/controls/typedef_PAQdatagram.ctl"/>
 			<Item Name="typedef_PAQsample.ctl" Type="VI" URL="../HISW/controls/typedef_PAQsample.ctl"/>
-			<Item Name="PAQ_File_Read_TimeRange.vi" Type="VI" URL="../DBAL/methods/BIN/PAQ_File_Read_TimeRange.vi"/>
 			<Item Name="BIN-filenum2daynum.vi" Type="VI" URL="../DBAL/methods/BIN/BIN-filenum2daynum.vi"/>
+			<Item Name="GV_ToolbarSampleView.vi" Type="VI" URL="../Gview/methods/GV_ToolbarSampleView.vi"/>
+			<Item Name="DBAL-progress.vi" Type="VI" URL="../DBAL/methods/DBAL-progress.vi"/>
+			<Item Name="Obtain-DBAL-Queue.vi" Type="VI" URL="../DBAL/methods/Obtain-DBAL-Queue.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
