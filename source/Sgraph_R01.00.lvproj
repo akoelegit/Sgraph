@@ -57,6 +57,8 @@
 		<Item Name="GV_ToolbarDiskType.vi" Type="VI" URL="../Gview/methods/GV_ToolbarDiskType.vi"/>
 		<Item Name="DBAL_Command.ctl" Type="VI" URL="../DBAL/controls/DBAL_Command.ctl"/>
 		<Item Name="DBAL-commands.ctl" Type="VI" URL="../DBAL/controls/DBAL-commands.ctl"/>
+		<Item Name="GV-Layer-GT-zero.vi" Type="VI" URL="../Gview/methods/GV-Layer-GT-zero.vi"/>
+		<Item Name="Typedef_ZoomEvent.ctl" Type="VI" URL="../Gview/controls/Typedef_ZoomEvent.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -149,6 +151,7 @@
 			<Item Name="GV_ToolbarSampleView.vi" Type="VI" URL="../Gview/methods/GV_ToolbarSampleView.vi"/>
 			<Item Name="DBAL-progress.vi" Type="VI" URL="../DBAL/methods/DBAL-progress.vi"/>
 			<Item Name="Obtain-DBAL-Queue.vi" Type="VI" URL="../DBAL/methods/Obtain-DBAL-Queue.vi"/>
+			<Item Name="MM-TimeSpanText.vi" Type="VI" URL="../MemMap/Methods/MM-TimeSpanText.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
