@@ -37,7 +37,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Sgraph_lib_V1.lvlib" Type="Library" URL="../Builds/Sgraph_lib_V1.lvlib"/>
-		<Item Name="FAMM_DB_New_BIN_taginfo.ctl" Type="VI" URL="../FAMM/controls/FAMM_DB_New_BIN_taginfo.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -130,7 +129,6 @@
 			<Item Name="DBAL-progress.vi" Type="VI" URL="../DBAL/methods/DBAL-progress.vi"/>
 			<Item Name="Obtain-DBAL-Queue.vi" Type="VI" URL="../DBAL/methods/Obtain-DBAL-Queue.vi"/>
 			<Item Name="MM-TimeSpanText.vi" Type="VI" URL="../MemMap/Methods/MM-TimeSpanText.vi"/>
-			<Item Name="DbaseCreateNewDialog.vi" Type="VI" URL="../FAMM/methods/DbaseCreateNewDialog.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Sgraph Packed Library Version 1" Type="Packed Library">
