@@ -11,29 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Common" Type="Folder" URL="../Common">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="doc" Type="Folder" URL="../../doc">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Stuff" Type="Folder">
-			<Item Name="AddChecksum.vi" Type="VI" URL="../DBAL/methods/BIN/AddChecksum.vi"/>
-			<Item Name="DBAL_TAGpropEdit.ctl" Type="VI" URL="../DBAL/controls/DBAL_TAGpropEdit.ctl"/>
-			<Item Name="DBAL_TAGprops.ctl" Type="VI" URL="../DBAL/controls/DBAL_TAGprops.ctl"/>
-			<Item Name="GenerateAlotOfSignals.vi" Type="VI" URL="../FAMM/GenerateAlotOfSignals.vi"/>
-			<Item Name="ScrambleAddChecksumWrite.vi" Type="VI" URL="../DBAL/methods/BIN/ScrambleAddChecksumWrite.vi"/>
-			<Item Name="SettingsGeneral.ctl" Type="VI" URL="../Gview/controls/SettingsGeneral.ctl"/>
-			<Item Name="typedef-DAQ-datagram.ctl" Type="VI" URL="../HISW/controls/typedef-DAQ-datagram.ctl"/>
-			<Item Name="typedef-functions.ctl" Type="VI" URL="../FAMM/controls/typedef-functions.ctl"/>
-			<Item Name="typedef-Qtype.ctl" Type="VI" URL="../HISW/controls/typedef-Qtype.ctl"/>
-			<Item Name="Typedef_Gserver-init.ctl" Type="VI" URL="../Gserver/controls/Typedef_Gserver-init.ctl"/>
-			<Item Name="Typedef_ServerActions.ctl" Type="VI" URL="../Gview/controls/Typedef_ServerActions.ctl"/>
-			<Item Name="Typedef_ViewPortMem.ctl" Type="VI" URL="../Gserver/controls/Typedef_ViewPortMem.ctl"/>
-			<Item Name="AttrIdleTimedEvents.ctl" Type="VI" URL="../Gview/controls/AttrIdleTimedEvents.ctl"/>
-			<Item Name="BinFolderPace.ctl" Type="VI" URL="../DBAL/methods/BIN/BinFolderPace.ctl"/>
-		</Item>
-		<Item Name="Test" Type="Folder" URL="../Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Sgraph_lib_V1.lvlib" Type="Library" URL="../Builds/Sgraph_lib_V1.lvlib"/>
@@ -141,7 +119,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C1B1471B-75FF-438B-BD59-9AF5E00B65ED}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Sgraph_Lib_V1.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Sgraph Packed Library Version 1/Sgraph_Lib_V1.lvlibp</Property>
