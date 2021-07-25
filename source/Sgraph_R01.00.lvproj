@@ -81,6 +81,11 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
+				<Item Name="Map Setup.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Setup.vi"/>
+				<Item Name="Map Value to Pixel.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Value to Pixel.vi"/>
+				<Item Name="Increment Filter.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Increment Filter.vi"/>
+				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
 			</Item>
 			<Item Name="AVPP_2_LxPAQwrapper.vi" Type="VI" URL="../AVPP/methods/AVPP_2_LxPAQwrapper.vi"/>
 			<Item Name="descramble.vi" Type="VI" URL="../DBAL/methods/BIN/descramble.vi"/>
@@ -107,6 +112,8 @@
 			<Item Name="DBAL-progress.vi" Type="VI" URL="../DBAL/methods/DBAL-progress.vi"/>
 			<Item Name="Obtain-DBAL-Queue.vi" Type="VI" URL="../DBAL/methods/Obtain-DBAL-Queue.vi"/>
 			<Item Name="MM-TimeSpanText.vi" Type="VI" URL="../MemMap/Methods/MM-TimeSpanText.vi"/>
+			<Item Name="Data trending CalcIncrement.vi" Type="VI" URL="../../../../../asus-PC-cooler-project/21-temp-monitor-V11/SubVI/Graph/Trending/Data trending CalcIncrement.vi"/>
+			<Item Name="Typedef_YscaleProp.ctl" Type="VI" URL="../Gview/controls/Typedef_YscaleProp.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Sgraph Packed Library Version 1" Type="Packed Library">
