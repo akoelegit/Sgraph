@@ -344,4 +344,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
 	</Item>
+	<Item Name="UpdateExistingPAQtag.vi" Type="VI" URL="../methods/BIN/UpdateExistingPAQtag.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+G!!!!&amp;Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!G%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)12%*"4#V#35YO&lt;(:D&lt;'&amp;T=Q!!$%2#15QN1EF/)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1$$`````!V2"2Q!/1$$`````"6&amp;U?8"F!"2!-0````],2'6T9X*J=(2J&lt;WY!%E!Q`````QB&amp;&lt;G&gt;6&lt;GFU=Q!!$5!+!!:397ZH:5A!!!V!#A!'5G&amp;O:W6-!!!21!-!#F*F=W^M&gt;82J&lt;WY!!!Z!)1B09H.P&lt;'6U:1!!%E"5!!9+1WBB&lt;G&gt;F2'&amp;U:1!!&amp;E!Q`````QR$;'&amp;O:W64&lt;X6S9W5!!":!-0````]-1WBB&lt;G&gt;F5G6B=W^O!!!.1!=!"V2B:U:V&lt;G-!7A$R!!!!!!!!!!)45W&gt;S98"I8WRJ9F^7-3ZM&gt;GRJ9B&gt;U?8"F:'6G8W.P&lt;6^597&gt;1=G^Q,G.U&lt;!!G1&amp;!!#A!*!!I!#Q!-!!U!$A!0!"!!%1!3"V2"2X"S&lt;X!!51$R!!!!!!!!!!)45W&gt;S98"I8WRJ9F^7-3ZM&gt;GRJ9B2%1E&amp;-8V2"2X"S&lt;X"&amp;:'FU,G.U&lt;!!A1&amp;!!!Q!(!!A!%Q^515&gt;Q=G^Q:8*U?56E;81!0%"Q!"Y!!#945W&gt;S98"I8WRJ9F^7-3ZM&gt;GRJ9B"%1E&amp;-,5**4CZM&gt;G.M98.T!!!,2%*"4#V#35YA;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!5!"5$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!*)!!!!!!1!7!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">3</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+	</Item>
 </LVClass>

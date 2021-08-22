@@ -64,4 +64,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
+	<Item Name="UpdateExistingPAQtag.vi" Type="VI" URL="../methods/SQLite/UpdateExistingPAQtag.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+Q!!!!&amp;Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!J%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)42%*"4#V455RJ&gt;'5O&lt;(:D&lt;'&amp;T=Q!02%*"4#V455RJ&gt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$%!Q`````Q.515=!$E!Q`````Q62&gt;(FQ:1!51$$`````#U2F=W.S;8"U;7^O!"*!-0````])27ZH67ZJ&gt;(-!!!V!#A!'5G&amp;O:W6)!!!.1!I!"F*B&lt;G&gt;F4!!!%5!$!!J3:8.P&lt;(6U;7^O!!!/1#%)4W*T&lt;WRF&gt;'5!!"*!6!!'#E.I97ZH:52B&gt;'5!!":!-0````]-1WBB&lt;G&gt;F5W^V=G.F!!!71$$`````$%.I97ZH:6*F98.P&lt;A!!$5!(!!&gt;597&gt;'&gt;7ZD!&amp;I!]1!!!!!!!!!#%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)8&gt;(FQ:72F:F^D&lt;WV@6'&amp;H5(*P=#ZD&gt;'Q!*E"1!!I!#1!+!!M!$!!.!!Y!$Q!1!"%!%A&gt;515&gt;Q=G^Q!&amp;%!]1!!!!!!!!!#%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)52%*"4&amp;^515&gt;Q=G^Q272J&gt;#ZD&gt;'Q!)%"1!!-!"Q!)!"-06%&amp;(=(*P='6S&gt;(F&amp;:'FU!%*!=!!?!!!J%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)42%*"4#V455RJ&gt;'5O&lt;(:D&lt;'&amp;T=Q!/2%*"4#V455RJ&gt;'5A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!&amp;!!6!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!#3!!!!!!%!&amp;A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">3</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+	</Item>
 </LVClass>

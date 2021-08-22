@@ -70,4 +70,25 @@ Andre, 3 apr 2021
   Defrag software optimized: OK that works, but this is only a temporary solution.
   Final implementation for automatic defrag mus still be made
 -------------------------------------------------------------------------------------------------
+Andre, 8 aug 2021
+  Add Y-scale implementation: implement basic Y-axis functionality.
+  Making relative (0-100%) X posioning operational.
+  Completing the Y-axis with move and delete actions.
+-------------------------------------------------------------------------------------------------
+Andre, 11 aug 2021
+  Improve help (h) button responses
+  Add cursor view to graph.
+-------------------------------------------------------------------------------------------------
+Andre, 14 aug 2021
+  Implement autoscale Menu handling and buttons.
+-------------------------------------------------------------------------------------------------
+Andre, 18 aug 2021
+  Implement Database editor utility
+
+
+
+
+
+
+
 

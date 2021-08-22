@@ -44,6 +44,7 @@
 		<Item Name="TestBINhist_fileContent.vi" Type="VI" URL="../../Test/TestBINhist_fileContent.vi"/>
 	</Item>
 	<Item Name="AVPP.lvclass" Type="LVClass" URL="../../AVPP/AVPP.lvclass"/>
+	<Item Name="DB-editor.lvclass" Type="LVClass" URL="../../DBeditor/DB-editor.lvclass"/>
 	<Item Name="DBAL-BIN.lvclass" Type="LVClass" URL="../../DBAL/DBAL-BIN.lvclass"/>
 	<Item Name="DBAL-SQLite.lvclass" Type="LVClass" URL="../../DBAL/DBAL-SQLite.lvclass"/>
 	<Item Name="DBAL.lvclass" Type="LVClass" URL="../../DBAL/DBAL.lvclass"/>
