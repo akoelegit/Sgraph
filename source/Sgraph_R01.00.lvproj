@@ -113,7 +113,6 @@
 			<Item Name="Typedef_Gserver-Replies.ctl" Type="VI" URL="../Gview/controls/Typedef_Gserver-Replies.ctl"/>
 			<Item Name="typedef_PAQdatagram.ctl" Type="VI" URL="../HISW/controls/typedef_PAQdatagram.ctl"/>
 			<Item Name="typedef_PAQsample.ctl" Type="VI" URL="../HISW/controls/typedef_PAQsample.ctl"/>
-			<Item Name="BIN-filenum2daynum.vi" Type="VI" URL="../DBAL/methods/BIN/BIN-filenum2daynum.vi"/>
 			<Item Name="GV_ToolbarSampleView.vi" Type="VI" URL="../Gview/methods/GV_ToolbarSampleView.vi"/>
 			<Item Name="DBAL-progress.vi" Type="VI" URL="../DBAL/methods/DBAL-progress.vi"/>
 			<Item Name="Obtain-DBAL-Queue.vi" Type="VI" URL="../DBAL/methods/Obtain-DBAL-Queue.vi"/>
