@@ -15,6 +15,7 @@
 		<Item Name="Global-services.vi" Type="VI" URL="../../Common/controls/Global-services.vi"/>
 		<Item Name="Global-test.vi" Type="VI" URL="../../Common/controls/Global-test.vi"/>
 		<Item Name="MeMapInfo.ctl" Type="VI" URL="../../Common/controls/MeMapInfo.ctl"/>
+		<Item Name="MinMax.ctl" Type="VI" URL="../../Gview/controls/MinMax.ctl"/>
 		<Item Name="MMap_element.ctl" Type="VI" URL="../../Common/controls/MMap_element.ctl"/>
 		<Item Name="OpenGraph.ctl" Type="VI" URL="../../Common/controls/OpenGraph.ctl"/>
 		<Item Name="OpenMemoryMap.vi" Type="VI" URL="../../Common/subVI/OpenMemoryMap.vi"/>

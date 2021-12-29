@@ -15,7 +15,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Sgraph_lib_V1.lvlib" Type="Library" URL="../Builds/Sgraph_lib_V1.lvlib"/>
-		<Item Name="MinMax.ctl" Type="VI" URL="../Gview/controls/MinMax.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
