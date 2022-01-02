@@ -88,7 +88,11 @@ Andre, 18 aug 2021
 Andre, 29 dec 2021
   Implement read from disk 'per week' and 'per month'
   Fixed issue at power-on memory read from disk.
-
+  Fixed time=0 write issue.
+-------------------------------------------------------------------------------------------------
+Andre, 2 jan 2022
+  Improved X-axis time&date notation per zoom range
+  
 
 
 
