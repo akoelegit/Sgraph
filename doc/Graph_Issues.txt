@@ -90,8 +90,10 @@ Andre, 29 dec 2021
   Fixed issue at power-on memory read from disk.
   Fixed time=0 write issue.
 -------------------------------------------------------------------------------------------------
-Andre, 2 jan 2022
+Andre, 10 jan 2022
   Improved X-axis time&date notation per zoom range
+  Fixed initial read to memory, and DB read order (all XY glitches now removed)
+-------------------------------------------------------------------------------------------------
   
 
 
