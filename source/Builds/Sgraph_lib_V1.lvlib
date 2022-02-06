@@ -8,15 +8,9 @@
 
 </Property>
 	<Item Name="Common" Type="Folder">
-		<Item Name="BIN-PAQ-Defrag-Attributes.ctl" Type="VI" URL="../../Test/Controls/BIN-PAQ-Defrag-Attributes.ctl"/>
-		<Item Name="DBAL_TAGpropEdit.ctl" Type="VI" URL="../../DBAL/controls/DBAL_TAGpropEdit.ctl"/>
-		<Item Name="DBAL_TAGprops.ctl" Type="VI" URL="../../DBAL/controls/DBAL_TAGprops.ctl"/>
 		<Item Name="defPath.vi" Type="VI" URL="../../Common/subVI/defPath.vi"/>
 		<Item Name="Global-services.vi" Type="VI" URL="../../Common/controls/Global-services.vi"/>
 		<Item Name="Global-test.vi" Type="VI" URL="../../Common/controls/Global-test.vi"/>
-		<Item Name="MeMapInfo.ctl" Type="VI" URL="../../Common/controls/MeMapInfo.ctl"/>
-		<Item Name="MinMax.ctl" Type="VI" URL="../../Gview/controls/MinMax.ctl"/>
-		<Item Name="MMap_element.ctl" Type="VI" URL="../../Common/controls/MMap_element.ctl"/>
 		<Item Name="OpenGraph.ctl" Type="VI" URL="../../Common/controls/OpenGraph.ctl"/>
 		<Item Name="OpenMemoryMap.vi" Type="VI" URL="../../Common/subVI/OpenMemoryMap.vi"/>
 		<Item Name="PaneZero.vi" Type="VI" URL="../../Common/subVI/PaneZero.vi"/>
@@ -33,7 +27,6 @@
 		<Item Name="typedef_com_PAQelement.ctl" Type="VI" URL="../../Common/controls/typedef_com_PAQelement.ctl"/>
 		<Item Name="typedef_com_TagMem.ctl" Type="VI" URL="../../Common/controls/typedef_com_TagMem.ctl"/>
 		<Item Name="typedef_com_TagProp.ctl" Type="VI" URL="../../Common/controls/typedef_com_TagProp.ctl"/>
-		<Item Name="Typedef_ServerActions.ctl" Type="VI" URL="../../Gview/controls/Typedef_ServerActions.ctl"/>
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Item Name="!Test-Sgraph-system.vi" Type="VI" URL="../../Test/!Test-Sgraph-system.vi"/>
