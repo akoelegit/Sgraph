@@ -398,7 +398,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="GV-MouseUP.vi" Type="VI" URL="../methods/GV-MouseUP.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'B!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!F%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)02X:J:8&gt;F=CZM&gt;G.M98.T!!N(&gt;GFF&gt;W6S)'^V&gt;!!11#%,47^V=W6-:7&amp;W:4]!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!-!#EBP=GF[&lt;WZU97Q!!!^!!Q!)6G6S&gt;'FD97Q!!$-!]1!!!!!!!!!"&amp;%R75'^J&lt;H1T-F2Z='6%:79O9X2M!":!5!!#!!A!#1:$&lt;W^S:(-!!$J!=!!?!!!F%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)02X:J:8&gt;F=CZM&gt;G.M98.T!!J(&gt;GFF&gt;W6S)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!9!"Q!+!!1!#Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!)!!!!#A!!!!A!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!-!!!!!!</Property>
@@ -408,6 +408,15 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+	</Item>
+	<Item Name="GV-PlotRscaleIndicator.vi" Type="VI" URL="../methods/GV-PlotRscaleIndicator.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!0*!!!!'!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!-`````],5'FD&gt;(6S:3"0661!%%!Q`````Q:'&lt;X*N981!!#.!&amp;A!##G*B9WNH=G^V&lt;G1+:G^S:7&gt;S&lt;X6O:!!%&gt;(FQ:1!!"1!+!!!-!%!!!@````]!#!!31%!!!@````]!#!2E982B!!!+!&amp;!!!A!*!!I!$!"!!!(`````!!M!'%"Q!!A!!1!-!&amp;-!!!F(=G&amp;Q;#VS:79!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!,1!=!"5.P&lt;'^S!&lt;A!]1!!!!!!!!!$%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)02X:J:8&gt;F=CZM&gt;G.M98.T&amp;&amp;2Z='6E:7:@4'FO:62Z='5O9X2M!8&gt;!&amp;A!7#'ZV&lt;6^C98*F$WZV&lt;6^.;7Z.98B@18*F92"O&gt;7V@47FO47&amp;Y8URJ&lt;G6T%7ZV&lt;6^.;7Z.98B@2G^S:G^S$'ZV&lt;6^.98B@18*F91RO&gt;7V@47&amp;Y8URJ&lt;G5/&lt;H6N8UVB?&amp;^'&lt;X*G&lt;X)-&lt;H6N8UVJ&lt;F^"=G6B$'ZV&lt;6^.;7Z@4'FO:1ZO&gt;7V@47FO8U:P=W:P=A^#&lt;W^M:7&amp;O8URJ&lt;G6@-$%01G^P&lt;'6B&lt;F^"=G6B8T!R%5*P&lt;WRF97Z@2G^T:G^S8T!R$U*P&lt;WRF97Z@4'FO:6^52A^#&lt;W^M:7&amp;O8U&amp;S:7&amp;@6%921G^P&lt;'6B&lt;F^'&lt;X.G&lt;X*@6%931G^P&lt;'6B&lt;F^0&lt;E^G:F^-;7ZF%E*P&lt;WRF97Z@4WZ0:G:@18*F922#&lt;W^M:7&amp;O8U^O4W:G8U:P=W:P=AV#&lt;W^M:7&amp;O8X.Q98*F%&amp;.U=GFO:U6W:7ZU8URJ&lt;G555X2S;7ZH28:F&lt;H2@6'FN:5RJ&lt;G5!!!B-;7ZF6(FQ:1!!#5!+!!.N98A!#5!+!!.N;7Y!:A$R!!!!!!!!!!-45W&gt;S98"I8WRJ9F^7-3ZM&gt;GRJ9A^(&gt;GFF&gt;W6S,GRW9WRB=X-:6(FQ:72F:F^4:7R1=G^Q:8*U;76T,G.U&lt;!!A1&amp;!!"!!0!"!!%1!3$6.F&lt;&amp;"S&lt;X"F=H2J:8-!'E"!!!(`````!"-.5W6M5(*P='6S&gt;'FF=Q!,1!-!"&amp;"M&lt;X1!!"2!-`````]+5'FD&gt;(6S:3"*4A!!6!$Q!!Q!!Q!%!!1!"1!'!!1!"Q!.!!Y!&amp;!!6!"9$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!#!!!!!!!!!!)!!!!#A!!!!I!!!))!!!!#!!!!!I!!!!!!1!8!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268972560</Property>
 	</Item>
 	<Item Name="GV-progress.vi" Type="VI" URL="../methods/GV-progress.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"7!!!!!Q!%!!!!$E!T`````Q5T.XAT.Q!]!0!!#!!!!!!!!!!!!!!!!!!"!!!$!!$)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!"!!)!!!!!</Property>
@@ -632,7 +641,25 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074536980</Property>
+	</Item>
+	<Item Name="GV_PlotRindBox.vi" Type="VI" URL="../methods/GV_PlotRindBox.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$.!!!!"Q!%!!!!&amp;%!T`````QN1;7.U&gt;8*F)%^66!!D1"9!!AJC97.L:X*P&gt;7ZE#G:P=G6H=G^V&lt;G1!"(2Z='5!!!^!!A!)6G6S&gt;'FD97Q!!".!"Q!-9W^M&lt;X)I9GRB9WMJ!!!51$0`````#F"J9X2V=G5A35Y!!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!A!!!!-!"!!&amp;!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!!A!!!!+!!!!!!%!"A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="GV_PlotRscale.vi" Type="VI" URL="../methods/GV_PlotRscale.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%_!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!F%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)02X:J:8&gt;F=CZM&gt;G.M98.T!!N(&gt;GFF&gt;W6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!F%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)02X:J:8&gt;F=CZM&gt;G.M98.T!!J(&gt;GFF&gt;W6S)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
 	<Item Name="GV_SetGraph.vi" Type="VI" URL="../methods/GV_SetGraph.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%_!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!F%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)02X:J:8&gt;F=CZM&gt;G.M98.T!!N(&gt;GFF&gt;W6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!F%V.H=G&amp;Q;&amp;^M;7*@6D%O&lt;(:M;7)02X:J:8&gt;F=CZM&gt;G.M98.T!!J(&gt;GFF&gt;W6S)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
