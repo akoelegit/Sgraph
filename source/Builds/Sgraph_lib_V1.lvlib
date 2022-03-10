@@ -10,6 +10,7 @@
 	<Item Name="Common" Type="Folder">
 		<Item Name="defPath.vi" Type="VI" URL="../../Common/subVI/defPath.vi"/>
 		<Item Name="Global-services.vi" Type="VI" URL="../../Common/controls/Global-services.vi"/>
+		<Item Name="Global-test-int.vi" Type="VI" URL="../../Common/controls/Global-test-int.vi"/>
 		<Item Name="Global-test.vi" Type="VI" URL="../../Common/controls/Global-test.vi"/>
 		<Item Name="OpenGraph.ctl" Type="VI" URL="../../Common/controls/OpenGraph.ctl"/>
 		<Item Name="OpenMemoryMap.vi" Type="VI" URL="../../Common/subVI/OpenMemoryMap.vi"/>
