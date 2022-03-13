@@ -112,6 +112,13 @@
 			<Item Name="Obtain-DBAL-Queue.vi" Type="VI" URL="../DBAL/methods/Obtain-DBAL-Queue.vi"/>
 			<Item Name="MM-TimeSpanText.vi" Type="VI" URL="../MemMap/Methods/MM-TimeSpanText.vi"/>
 			<Item Name="Typedef_YscaleProp.ctl" Type="VI" URL="../Gview/controls/Typedef_YscaleProp.ctl"/>
+			<Item Name="Test_PowerRequest.vi" Type="VI" URL="../Test/PowerRequest/Test_PowerRequest.vi"/>
+			<Item Name="Power Requests.lvlib" Type="Library" URL="../Test/PowerRequest/Power Requests.lvlib"/>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="FG_PowerHandle.vi" Type="VI" URL="../Test/PowerRequest/FG_PowerHandle.vi"/>
+			<Item Name="Test_PowerRequest_Exit.vi" Type="VI" URL="../Test/PowerRequest/Test_PowerRequest_Exit.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Sgraph Packed Library Version 1.02" Type="Packed Library">
