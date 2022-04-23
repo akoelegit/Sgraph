@@ -1,0 +1,165 @@
+(02G) When flag gives 'sample invalid' then skip these samples in graph.
+      This can happen when part of the simultaneous updated samples is set to invalid,
+      and allows for multiple sample rates in one write mechanism.
+(02H) Min/Max background not yet perfect: when time jumps over large area, then max value
+      jumps to next max value. Should be better to be limited and not jump over time gaps.
+(02J) When preset is changed, then min/max indication is nok (not correct channels) until
+      the preset is manually selected again. So after editting the Gviewer must be updated.
+(03A) Ygraphs: select and place cursors
+(06) Zoom max limits
+(06A) Time max zoom span = 25 years & min = time - 10 years (or settable by rention time)
+(02D) Add engineering units to Rscales
+(02E) Add possibilities to show tagnames and descriptions in graph,
+      place on track in 'empty spot' where no trace is plotted (automatically)
+(06B) Time min zoom span = 2 samples LSB in data
+(06C) Y max zoom span = all scales max range or default 10G
+(07D) Y min zoom span = all scales min resolution or 1x10-12 span.
+(07E) When Y-scale values are changed in graph manually then scaling is nok for that channel.
+(08) Implement Export data to csv
+(09) implement Export data to xls
+(10) implement Export data to HDF5
+(11) implement Export image
+(16) implement 'WAQ'
+(17) implement 'EAQ'
+(18) implement string EAQ event list
+(19) improve boolean TF visualization
+(20) implement TDMS database class
+(21) implement SQLite database class
+(22) implement SQL database class
+(25) Besides export: make live stream to custom code and 3D graph (as example)
+(26) Implement Linux/Mac/Windows compatibility
+23 jan 2022: added path adaption if OS != windows
+     -> to be tested
+
+------ Nice to Haves ------------
+(103) Ability so add all Y axis scales at once
+(105) Fix issues in example project. Make auto-deploy fast & easy
+(106) Document the '105' auto deploy function.
+(107) next.
+
+------ BUGs ----Last update: 10 mar 2022
+
+(23A) Database editor does not seem to work in executable that uses Packed Library.
+(01G) When 1s/min updates: interpolation seems not to work OK
+      Diagnose: 
+(01I) min/max indicator not allways correct for all graphs
+      For some it works, for others it doesnt (could  correlate with 01E bug)
+(04A) Undo zoom works now, but the last step (to 0) contains a bug.
+(13A) Toolbar hover when multiple instances interferes
+ 
+
+================================================================
+Items done:
+================================================================
+(01) Data fetch from disk
+(01A)Buttons don't hold: bugfix needed
+(01B) Disk fetch: only single file implemented; multiple files fail.
+      Diagnose: (7/nov/21) recognized it with HV data conversion.
+      The DB readback when crossover between two log files (days) is shows only one.
+      This is important to fix as primary function to enable full readback
+      -> Fixed 16-11-2021 for the 'per day' files (others not yet implemented for disk fetch)
+      29 dec 2021: got this issue back into tht todo: 
+      Whole data is not yet covered for readback, still gaps present..
+      Next: Some scrolling bugs on L3/L3 present...
+            This seems to be a pre-loading bug (missing a portion)
+            Found: read from disk is 'read n samples' but should be 'read n samples from end'
+            Fixed: 29 dec 2021
+(01C) Bug: when hor resolution changes, then this is not updated to the Queries.
+      Hor resolution change should do this immediately
+      -> Fixed 16-11-2021
+(01E) Disk fetch: 2 extra samples needed when fully zoomed in
+      Even nicer would be: show where previous sample goes (time indicator)
+      Fixed 2 extra samples, no indicator yet (time) for out of view samples.
+(01F) Interpolation doesn't allways show correct, some channels interpolation = OFF
+      Diagnose: Found the bug, fixed 16 nov 2021
+(01H) Able to zoom out and not have working cursors anymore above a certain timespan.
+      Setting: 10 msec sampling, 10 channels
+      no cursors at approximately 30 minute timeline
+      Diagnose: The 'LastUpdate.PAQ_section.DataSection' 1st element is NaN (date)
+                then the DBL value will be 9.22337E+18.
+      it's possible to fix this in the time comparator.
+      Fixed in \Gview\methods\CursorDraw_3_cursorView.vi
+      Tested: OK, now fixed.
+(01J) Sometimes not the correct number of channels are shown... (when crowded..)
+      Fixed: not seen for a while now..
+(01K) Sometimes time goes to Zero (seen at L3) which gives incorrect displays on
+      the graph. Fix attempt performed in (01S): Yes, this fixed it (2 jan 2022)
+(01L) When hovering over traces in freeze, the min/max update does not change.
+      Fixed 15 nov 2011 together with min-max settings options
+(01M) Disk Fetch Per week must still be implemented.
+      Fixed, 29 dec 2021
+(01N) Disk Fetch per year must still be implemented.
+      Fixed, 29 dec 2021
+(01P) Graph buffer can run full when computer performance is not adequate.
+      This will end after a while with a 'memory full' error making the system to hang.
+      Solution: Sgraph should show it and act if needed (skip updates?)
+      It also looks like during overload the graph events don't work.
+      -> diagnose per 29 dec 2021 (since it is annoying..)
+      29 dec 2021: visualized effect
+      (01R) is means to fix the cause
+      29 feb 2022: occasionly it still hangs... So add buffer size indicator
+      Improved with flush action when buffer overflows, this seems to fix it.
+(01Q) When (at i.e. L5) time is moved, then the image disappears until the dataset is
+      selected again. 1st diagnose: Preset content is empty.
+      Gottit: has to do with (01E), when during moving the content of the graph is empty,
+      then the autoscale messes up and empties the settings values.
+      So.. Fix for this bug would be to disable autoscale when there is no data,
+      and fix the rest with fixing (01E).
+      Fixed: 29 dec 2021
+(01R) Decimate large sample sizes to prevent buffer overflow.
+      Checked readout functions and found that time=zero cause much problems.
+      Fast workaround is to skip time=0 files in BIN\PAQ_BIN_IndexRangeCheck.vi
+      This still hasn't solved the time=0 effects, but gives better response.
+      Fixed by time=0 fix, so this one skipped for now (2 jan 2022)
+(01S) Sometimes it seems that time=0 is stored. Catch time=0 at the input (HISW)
+      and block those. Then test if this fixes the problem.J
+      New conversion test: 30 dec 2021 & Fixed
+(01U) Graph seems not to be independent anymore, it seems they have used common resources.
+      Reporoduce by starting multiple graphs and check that everyhing is independent.
+      6 feb: fix cursor view common reponse: this is now fixed.
+      Some dependency on periodic updates exist: Fixed, set all VI's to re-entrant-pre-assigned
+(01W) Make Lscale and Rscale settings in menu.
+      has also to do with item(101), (102) and (104), where (104) might also be auto-select.
+      Implemented 10 feb 2022
+(01Q) when in the Gviewer dataset editor the order of channels differs from the
+      order in the database: then the visualization shows an error in the test shown
+      at the cursor: so the lookup has a fault.
+      Diagnose: Seems to be the TAG properties: this one needs a search per tag,
+      just using the properties per index is wrong.
+      Fixed: 3 mar 2022
+(02) Show read mode in graph
+(02A) When GViewer maximized: it does not update the Rscale and Lscale
+      Also when turned On/Off it does not scale correct.
+      First, move event action handler outside event handler, so it will run every loop iteration.
+      Then: make timed handler for Lscale and Rscale updates.
+      Works, timed event fixes the issue (6 mar 2022)
+(02B) It would be nicer if Lscale and Rscale size would be exact as needed.
+      Some estetic improvements can be implemented here
+      Fixed on 7 mar 2022
+(02C) Also save scale attributes together with presets.
+      This would then also allow to make stacked view including all attibutes
+      to become the default graph start view.
+      8 mar 2022, start this action, but not completeley done yet ...
+      Has still to be proper tested and all glitches removed..
+      Some difficulties were found whith loading of presets..
+      Found and fixed a 'selected properties' bug in autoscale VI
+      fixed another bug in Preset load, now all OK
+(02F) on library used application: Lplot Ygraphs do not show completely (missing one pixel)
+      7 mar 2022 -> Changed location calculations, so I expect this is now fixed.
+(03) Y-graphs
+(04) Undo zoom
+(05) Show dots at max zoom
+(07) Show min/max background color
+(07A) Min/Max: Update must be added in freeze mode
+      Fixed 16 nov 2021
+(12) Large range 'hang' bugfix
+(14) Normalize 'stacked'
+(15) Normalize 'listed'
+(23) Add Almanac TAG features editor
+(24) MinMax options
+(101) Show actual values (on the right) -> implemented 19 feb 2022
+(102) Ability to remove main left Y axis
+      Done: 10 feb 2022
+(104) Auto separate Y-axis on left side when appropriate.
+      Note: regarded as too computing-intensive.
+      It does work, but is not automatically turned on.
