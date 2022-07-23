@@ -6,7 +6,7 @@
 (02J) When preset is changed, then min/max indication is nok (not correct channels) until
       the preset is manually selected again. So after editting the Gviewer must be updated.
 (03A) Ygraphs: select and place cursors
-(06) Zoom max limits
+(06)  Zoom max limits
 (06A) Time max zoom span = 25 years & min = time - 10 years (or settable by rention time)
 (02D) Add engineering units to Rscales
 (02E) Add possibilities to show tagnames and descriptions in graph,
@@ -15,21 +15,22 @@
 (06C) Y max zoom span = all scales max range or default 10G
 (07D) Y min zoom span = all scales min resolution or 1x10-12 span.
 (07E) When Y-scale values are changed in graph manually then scaling is nok for that channel.
-(08) Implement Export data to csv
-(09) implement Export data to xls
-(10) implement Export data to HDF5
-(11) implement Export image
-(16) implement 'WAQ'
-(17) implement 'EAQ'
-(18) implement string EAQ event list
-(19) improve boolean TF visualization
-(20) implement TDMS database class
-(21) implement SQLite database class
-(22) implement SQL database class
-(25) Besides export: make live stream to custom code and 3D graph (as example)
-(26) Implement Linux/Mac/Windows compatibility
-23 jan 2022: added path adaption if OS != windows
-     -> to be tested
+(08)  Implement Export data to csv
+(09)  implement Export data to xls
+(10)  implement Export data to HDF5
+(11)  implement Export image
+(16)  implement 'WAQ'
+(17)  implement 'EAQ'
+(18)  implement string EAQ event list
+(19)  improve boolean TF visualization
+(20)  implement TDMS database class
+(21)  implement SQLite database class
+(22)  implement SQL database class
+(25)  Besides export: make live stream to custom code and 3D graph (as example)
+(26)  Implement Linux/Mac/Windows compatibility
+      23 jan 2022: added path adaption if OS != windows
+      -> to be tested
+
 
 ------ Nice to Haves ------------
 (103) Ability so add all Y axis scales at once
@@ -157,6 +158,10 @@ Items done:
 (15) Normalize 'listed'
 (23) Add Almanac TAG features editor
 (24) MinMax options
+(27)  Bug: in Dfarm, since a 2nd dataset was added, the graph seems to hang when zooming out.
+      Hi-priority fix needed.
+      Found and fixed. Seems a bug in LabVIEW 2G object : GV_YscaleCalcScaleSpecs.vi
+      created exception while loop escape to fix it. (23-07-2022)
 (101) Show actual values (on the right) -> implemented 19 feb 2022
 (102) Ability to remove main left Y axis
       Done: 10 feb 2022
