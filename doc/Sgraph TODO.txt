@@ -8,7 +8,9 @@
 (03A) Ygraphs: select and place cursors
 (06)  Zoom max limits
 (06A) Time max zoom span = 25 years & min = time - 10 years (or settable by rention time)
-(02D) Add engineering units to Rscales
+
+
+
 (02E) Add possibilities to show tagnames and descriptions in graph,
       place on track in 'empty spot' where no trace is plotted (automatically)
 (06B) Time min zoom span = 2 samples LSB in data
@@ -30,7 +32,9 @@
 (26)  Implement Linux/Mac/Windows compatibility
       23 jan 2022: added path adaption if OS != windows
       -> to be tested
-
+(28)  Give boolean format data a type specific min-max functionality
+(29)  Add boolean Y-scale formatting.
+(30)  Next
 
 ------ Nice to Haves ------------
 (103) Ability so add all Y axis scales at once
@@ -68,6 +72,8 @@ Items done:
 (01C) Bug: when hor resolution changes, then this is not updated to the Queries.
       Hor resolution change should do this immediately
       -> Fixed 16-11-2021
+(02D) Add engineering units to Rscales
+      -> Implemented 24 July 2022
 (01E) Disk fetch: 2 extra samples needed when fully zoomed in
       Even nicer would be: show where previous sample goes (time indicator)
       Fixed 2 extra samples, no indicator yet (time) for out of view samples.
