@@ -10,9 +10,6 @@
 (06A) Time max zoom span = 25 years & min = time - 10 years (or settable by rention time)
 
 
-
-(02E) Add possibilities to show tagnames and descriptions in graph,
-      place on track in 'empty spot' where no trace is plotted (automatically)
 (06B) Time min zoom span = 2 samples LSB in data
 (06C) Y max zoom span = all scales max range or default 10G
 (07D) Y min zoom span = all scales min resolution or 1x10-12 span.
@@ -33,14 +30,22 @@
       23 jan 2022: added path adaption if OS != windows
       -> to be tested
 (28)  Give boolean format data a type specific min-max functionality
+      and remove 'averaging' for boolean types.
 (29)  Add boolean Y-scale formatting.
+      -> Implemented, 26-7-2022
+         Y-axis indication on left side (many) still needs to be adapted.
+
+(02E) Add possibilities to show tagnames and descriptions in graph,
+      place on track in 'empty spot' where no trace is plotted (automatically)
+
+
 (30)  Next
 
 ------ Nice to Haves ------------
-(103) Ability so add all Y axis scales at once
 (105) Fix issues in example project. Make auto-deploy fast & easy
 (106) Document the '105' auto deploy function.
-(107) next.
+(107) Make some promo material (youtube) to spread the good news.
+(108) Next.
 
 ------ BUGs ----Last update: 10 mar 2022
 
@@ -171,6 +176,7 @@ Items done:
 (101) Show actual values (on the right) -> implemented 19 feb 2022
 (102) Ability to remove main left Y axis
       Done: 10 feb 2022
+(103) Ability so add all Y axis scales at once -> removed, this is covered by left automatic Y-axis formatting
 (104) Auto separate Y-axis on left side when appropriate.
       Note: regarded as too computing-intensive.
       It does work, but is not automatically turned on.
