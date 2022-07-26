@@ -34,6 +34,7 @@
 		<Item Name="GenerateAlotOfSignals.vi" Type="VI" URL="../../FAMM/GenerateAlotOfSignals.vi"/>
 		<Item Name="Global_tst_num.vi" Type="VI" URL="../../Test/Global_tst_num.vi"/>
 		<Item Name="GlobalChunkSave_test.vi" Type="VI" URL="../../Test/GlobalChunkSave_test.vi"/>
+		<Item Name="GV-Selprops-global.vi" Type="VI" URL="../../Test/GV-Selprops-global.vi"/>
 		<Item Name="PAQ-Defragment.vi" Type="VI" URL="../../Test/PAQ-Defragment.vi"/>
 		<Item Name="Test-Sgraph-progress.vi" Type="VI" URL="../../Test/Test-Sgraph-progress.vi"/>
 		<Item Name="Test_PR_typedef.ctl" Type="VI" URL="../../Test/PowerRequest/Power Availabilty Requests/Type Defs/Test_PR_typedef.ctl"/>
