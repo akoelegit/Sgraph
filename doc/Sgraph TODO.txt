@@ -39,8 +39,22 @@
       place on track in 'empty spot' where no trace is plotted (automatically)
 
 
-(30)  Fix 'flashing boolean envelopes' (probably due to dual source writes to middle layer img)
-(31)  Next.
+(31)  Add TAG 'descriptions' to the 'edit preset' field
+
+(32)  Extend zoom functions with (default) option to 'view in new window'
+      Options -> 'Zoom to new window'
+                 'Duplicate graph'
+
+(33)  Improve Y-autoscale to have only:
+      - Fit units    (and have toolbar button to cycle between the first two)
+      - Fit analogs  (but keep booleans stacked allways)
+      - Fit all
+      - Stack
+
+
+
+(34)  Next
+
 
 ------ Nice to Haves ------------
 (105) Fix issues in example project. Make auto-deploy fast & easy
@@ -174,6 +188,8 @@ Items done:
       Hi-priority fix needed.
       Found and fixed. Seems a bug in LabVIEW 2G object : GV_YscaleCalcScaleSpecs.vi
       created exception while loop escape to fix it. (23-07-2022)
+(30)  Fix 'flashing boolean envelopes'
+      -> Fixed 27-7-2022
 (101) Show actual values (on the right) -> implemented 19 feb 2022
 (102) Ability to remove main left Y axis
       Done: 10 feb 2022
