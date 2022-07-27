@@ -39,7 +39,8 @@
       place on track in 'empty spot' where no trace is plotted (automatically)
 
 
-(30)  Next
+(30)  Fix 'flashing boolean envelopes' (probably due to dual source writes to middle layer img)
+(31)  Next.
 
 ------ Nice to Haves ------------
 (105) Fix issues in example project. Make auto-deploy fast & easy
