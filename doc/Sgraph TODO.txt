@@ -29,8 +29,10 @@
 (26)  Implement Linux/Mac/Windows compatibility
       23 jan 2022: added path adaption if OS != windows
       -> to be tested
+
 (28)  Give boolean format data a type specific min-max functionality
       and remove 'averaging' for boolean types.
+
 (29)  Add boolean Y-scale formatting.
       -> Implemented, 26-7-2022
          Y-axis indication on left side (many) still needs to be adapted to the several autoscale options.
@@ -45,7 +47,6 @@
       Options -> 'Zoom to new window'
                  'Duplicate graph'
 
-
 (35)  Next.
 
 
@@ -56,14 +57,12 @@
 (108) Next.
 
 ------ BUGs ----Last update: 10 mar 2022
-
 (23A) Database editor does not seem to work in executable that uses Packed Library.
 (01G) When 1s/min updates: interpolation seems not to work OK
       Diagnose: 
 (01I) min/max indicator not allways correct for all graphs
       For some it works, for others it doesnt (could  correlate with 01E bug)
-(04A) Undo zoom works now, but the last step (to 0) contains a bug.
-(13A) Toolbar hover when multiple instances interferes
+
  
 
 ================================================================
@@ -168,11 +167,15 @@ Items done:
       7 mar 2022 -> Changed location calculations, so I expect this is now fixed.
 (03) Y-graphs
 (04) Undo zoom
+(04A) Undo zoom works now, but the last step (to 0) contains a bug.
+      -> Fixed on 29 July 2022
 (05) Show dots at max zoom
 (07) Show min/max background color
 (07A) Min/Max: Update must be added in freeze mode
       Fixed 16 nov 2021
 (12) Large range 'hang' bugfix
+(13A) Toolbar hover when multiple instances interferes
+      -> 29 July 2022: haven't seen this one for a while. I guess it's fixed at some point of development.
 (14) Normalize 'stacked'
 (15) Normalize 'listed'
 (23) Add Almanac TAG features editor
