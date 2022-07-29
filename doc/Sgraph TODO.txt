@@ -33,7 +33,7 @@
       and remove 'averaging' for boolean types.
 (29)  Add boolean Y-scale formatting.
       -> Implemented, 26-7-2022
-         Y-axis indication on left side (many) still needs to be adapted.
+         Y-axis indication on left side (many) still needs to be adapted to the several autoscale options.
 
 (02E) Add possibilities to show tagnames and descriptions in graph,
       place on track in 'empty spot' where no trace is plotted (automatically)
@@ -45,15 +45,8 @@
       Options -> 'Zoom to new window'
                  'Duplicate graph'
 
-(33)  Improve Y-autoscale to have only:
-      - Fit units    (and have toolbar button to cycle between the first two)
-      - Fit analogs  (but keep booleans stacked allways)
-      - Fit all
-      - Stack
 
-
-
-(34)  Next
+(35)  Next.
 
 
 ------ Nice to Haves ------------
@@ -190,6 +183,14 @@ Items done:
       created exception while loop escape to fix it. (23-07-2022)
 (30)  Fix 'flashing boolean envelopes'
       -> Fixed 27-7-2022
+(33)  Improve Y-autoscale to optimize functionality.
+      - Fit units    (and have toolbar button to cycle between the first two)
+      - Fit analogs  (but keep booleans stacked allways)
+      - Fit all
+      - Stack
+      -> Implemented 29 July 2022
+(34)  If autoscale is acted in 'Freeze' mode, then add immediate graph update.
+      -> fixed: 29 july 2022
 (101) Show actual values (on the right) -> implemented 19 feb 2022
 (102) Ability to remove main left Y axis
       Done: 10 feb 2022

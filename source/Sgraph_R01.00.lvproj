@@ -119,6 +119,7 @@
 			</Item>
 			<Item Name="FG_PowerHandle.vi" Type="VI" URL="../Test/PowerRequest/FG_PowerHandle.vi"/>
 			<Item Name="Test_PowerRequest_Exit.vi" Type="VI" URL="../Test/PowerRequest/Test_PowerRequest_Exit.vi"/>
+			<Item Name="GV_Zoom_Fitsize_PerUnit.vi" Type="VI" URL="../Gview/methods/GV_Zoom_Fitsize_PerUnit.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Sgraph Packed Library Version 1.02" Type="Packed Library">

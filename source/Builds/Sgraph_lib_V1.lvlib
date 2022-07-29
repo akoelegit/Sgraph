@@ -38,6 +38,7 @@
 		<Item Name="PAQ-Defragment.vi" Type="VI" URL="../../Test/PAQ-Defragment.vi"/>
 		<Item Name="Test-Sgraph-progress.vi" Type="VI" URL="../../Test/Test-Sgraph-progress.vi"/>
 		<Item Name="Test_PR_typedef.ctl" Type="VI" URL="../../Test/PowerRequest/Power Availabilty Requests/Type Defs/Test_PR_typedef.ctl"/>
+		<Item Name="Test_Toolbar-Global.vi" Type="VI" URL="../../Test/Test_Toolbar-Global.vi"/>
 		<Item Name="TestBINhist_fileContent.vi" Type="VI" URL="../../Test/TestBINhist_fileContent.vi"/>
 	</Item>
 	<Item Name="AVPP.lvclass" Type="LVClass" URL="../../AVPP/AVPP.lvclass"/>
