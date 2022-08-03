@@ -5,14 +5,8 @@
       jumps to next max value. Should be better to be limited and not jump over time gaps.
 (02J) When preset is changed, then min/max indication is nok (not correct channels) until
       the preset is manually selected again. So after editting the Gviewer must be updated.
-(03A) Ygraphs: select and place cursors
-(06)  Zoom max limits
-(06A) Time max zoom span = 25 years & min = time - 10 years (or settable by rention time)
 
 
-(06B) Time min zoom span = 2 samples LSB in data
-(06C) Y max zoom span = all scales max range or default 10G
-(07D) Y min zoom span = all scales min resolution or 1x10-12 span.
 (07E) When Y-scale values are changed in graph manually then scaling is nok for that channel.
 (08)  Implement Export data to csv
 (09)  implement Export data to xls
@@ -21,7 +15,6 @@
 (16)  implement 'WAQ'
 (17)  implement 'EAQ'
 (18)  implement string EAQ event list
-(19)  improve boolean TF visualization
 (20)  implement TDMS database class
 (21)  implement SQLite database class
 (22)  implement SQL database class
@@ -30,6 +23,9 @@
       23 jan 2022: added path adaption if OS != windows
       -> to be tested
 
+      
+
+
 (28)  Give boolean format data a type specific min-max functionality
       and remove 'averaging' for boolean types.
 
@@ -37,20 +33,20 @@
       -> Implemented, 26-7-2022
          Y-axis indication on left side (many) still needs to be adapted to the several autoscale options.
 
-(02E) Add possibilities to show tagnames and descriptions in graph,
-      place on track in 'empty spot' where no trace is plotted (automatically)
-
-
 (31)  Add TAG 'descriptions' to the 'edit preset' field
 
-(32)  Extend zoom functions with (default) option to 'view in new window'
-      Options -> 'Zoom to new window'
-                 'Duplicate graph'
 
 (35)  Next.
 
 
 ------ Nice to Haves ------------
+(02E) Add possibilities to show tagnames and descriptions in graph,
+      place on track in 'empty spot' where no trace is plotted (automatically)
+(03A) Ygraphs: select and place cursors
+(32)  Extend zoom functions with (default) option to 'view in new window'
+      Options -> 'Zoom to new window'
+                 'Duplicate graph'
+
 (105) Fix issues in example project. Make auto-deploy fast & easy
 (106) Document the '105' auto deploy function.
 (107) Make some promo material (youtube) to spread the good news.
@@ -170,6 +166,15 @@ Items done:
 (04A) Undo zoom works now, but the last step (to 0) contains a bug.
       -> Fixed on 29 July 2022
 (05) Show dots at max zoom
+(06)  Zoom max limits
+(06A) Time max zoom span = 25 years & min = time - 10 years (or settable by rention time)
+      -> implemented 1-8-2022
+(06B) Time min zoom span = 2 samples LSB in data
+      -> implemented 2-8-2022
+(06C) Y max zoom span = all zoomed traces are 50x zoomed in
+      -> implemented: 3-8-2022
+(07D) Y min zoom span = all scales min resolution of one pixel
+      -> implemented: 3-8-2022
 (07) Show min/max background color
 (07A) Min/Max: Update must be added in freeze mode
       Fixed 16 nov 2021
@@ -178,6 +183,8 @@ Items done:
       -> 29 July 2022: haven't seen this one for a while. I guess it's fixed at some point of development.
 (14) Normalize 'stacked'
 (15) Normalize 'listed'
+(19)  improve boolean TF visualization
+      -> implemented, 31-7-2022
 (23) Add Almanac TAG features editor
 (24) MinMax options
 (27)  Bug: in Dfarm, since a 2nd dataset was added, the graph seems to hang when zooming out.
