@@ -15,6 +15,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Sgraph_lib_V1.lvlib" Type="Library" URL="../Builds/Sgraph_lib_V1.lvlib"/>
+		<Item Name="Typedef_ReplyToViewer.ctl" Type="VI" URL="../Gserver/controls/Typedef_ReplyToViewer.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -120,6 +121,7 @@
 			<Item Name="FG_PowerHandle.vi" Type="VI" URL="../Test/PowerRequest/FG_PowerHandle.vi"/>
 			<Item Name="Test_PowerRequest_Exit.vi" Type="VI" URL="../Test/PowerRequest/Test_PowerRequest_Exit.vi"/>
 			<Item Name="GV_Zoom_Fitsize_PerUnit.vi" Type="VI" URL="../Gview/methods/GV_Zoom_Fitsize_PerUnit.vi"/>
+			<Item Name="OpenNetworkGraph.vi" Type="VI" URL="../Common/subVI/OpenNetworkGraph.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Sgraph Packed Library Version 1.02" Type="Packed Library">

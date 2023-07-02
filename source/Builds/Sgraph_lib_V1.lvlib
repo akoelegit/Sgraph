@@ -12,6 +12,8 @@
 		<Item Name="Global-services.vi" Type="VI" URL="../../Common/controls/Global-services.vi"/>
 		<Item Name="Global-test-int.vi" Type="VI" URL="../../Common/controls/Global-test-int.vi"/>
 		<Item Name="Global-test.vi" Type="VI" URL="../../Common/controls/Global-test.vi"/>
+		<Item Name="GVnetwork.ctl" Type="VI" URL="../../Gview/controls/GVnetwork.ctl"/>
+		<Item Name="NewNetowrkGraph.ctl" Type="VI" URL="../../Common/controls/NewNetowrkGraph.ctl"/>
 		<Item Name="OpenGraph.ctl" Type="VI" URL="../../Common/controls/OpenGraph.ctl"/>
 		<Item Name="OpenMemoryMap.vi" Type="VI" URL="../../Common/subVI/OpenMemoryMap.vi"/>
 		<Item Name="PaneZero.vi" Type="VI" URL="../../Common/subVI/PaneZero.vi"/>
@@ -20,6 +22,8 @@
 		<Item Name="progress.vi" Type="VI" URL="../../Common/subVI/progress.vi"/>
 		<Item Name="RemoveBrackets.vi" Type="VI" URL="../../Common/subVI/RemoveBrackets.vi"/>
 		<Item Name="StartService.ctl" Type="VI" URL="../../Common/controls/StartService.ctl"/>
+		<Item Name="TCP-pack.vi" Type="VI" URL="../../Common/subVI/TCP-pack.vi"/>
+		<Item Name="TCP-unpack.vi" Type="VI" URL="../../Common/subVI/TCP-unpack.vi"/>
 		<Item Name="ToolTypeEnum.ctl" Type="VI" URL="../../Common/controls/ToolTypeEnum.ctl"/>
 		<Item Name="typedef-DAQ-datagram.ctl" Type="VI" URL="../../HISW/controls/typedef-DAQ-datagram.ctl"/>
 		<Item Name="typedef-functions.ctl" Type="VI" URL="../../FAMM/controls/typedef-functions.ctl"/>
@@ -31,6 +35,7 @@
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Item Name="!Test-Sgraph-system.vi" Type="VI" URL="../../Test/!Test-Sgraph-system.vi"/>
+		<Item Name="Error-Ignore.vi" Type="VI" URL="../../Common/subVI/Error-Ignore.vi"/>
 		<Item Name="GenerateAlotOfSignals.vi" Type="VI" URL="../../FAMM/GenerateAlotOfSignals.vi"/>
 		<Item Name="Global_tst_num.vi" Type="VI" URL="../../Test/Global_tst_num.vi"/>
 		<Item Name="GlobalChunkSave_test.vi" Type="VI" URL="../../Test/GlobalChunkSave_test.vi"/>

@@ -50,7 +50,8 @@
 (105) Fix issues in example project. Make auto-deploy fast & easy
 (106) Document the '105' auto deploy function.
 (107) Make some promo material (youtube) to spread the good news.
-(108) Next.
+(108) Implement network gateway for DB query to facilitate networked graph.
+(110) Next.
 
 ------ BUGs ----Last update: 10 mar 2022
 (23A) Database editor does not seem to work in executable that uses Packed Library.
@@ -208,3 +209,4 @@ Items done:
 (104) Auto separate Y-axis on left side when appropriate.
       Note: regarded as too computing-intensive.
       It does work, but is not automatically turned on.
+(109) Implement networked viewer: implemented and tested 2-7-2023
