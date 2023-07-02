@@ -124,27 +124,27 @@
 			<Item Name="OpenNetworkGraph.vi" Type="VI" URL="../Common/subVI/OpenNetworkGraph.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Sgraph Packed Library Version 1.02" Type="Packed Library">
+			<Item Name="Sgraph Packed Library Version 1.03" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3B49C0A5-1F44-4EEA-B336-737D7B398B42}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Sgraph Packed Library Version 1.02</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Sgraph Packed Library Version 1.03</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Sgraph Packed Library Version 1.02</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Sgraph Packed Library Version 1.03</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C1B1471B-75FF-438B-BD59-9AF5E00B65ED}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Sgraph_Lib_V1.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Sgraph Packed Library Version 1.02/Sgraph_Lib_V1.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Sgraph Packed Library Version 1.03/Sgraph_Lib_V1.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Sgraph Packed Library Version 1.02</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Sgraph Packed Library Version 1.03</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E697E86D-3D6E-4C9C-8D50-3333702F57D2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F9B213D1-8A16-4C10-B7BD-F618C3727323}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Sgraph_lib_V1.lvlib</Property>
@@ -186,10 +186,10 @@
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">12</Property>
 				<Property Name="TgtF_companyName" Type="Str">Frencken Engineering</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Sgraph Packed Library Version 1.02</Property>
-				<Property Name="TgtF_internalName" Type="Str">Sgraph Packed Library Version 1.02</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Sgraph Packed Library Version 1.03</Property>
+				<Property Name="TgtF_internalName" Type="Str">Sgraph Packed Library Version 1.03</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Frencken Engineering</Property>
-				<Property Name="TgtF_productName" Type="Str">Sgraph Packed Library Version 1.02</Property>
+				<Property Name="TgtF_productName" Type="Str">Sgraph Packed Library Version 1.03</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{3636065E-F33F-4DDC-A4D5-442D1C7E5CEA}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Sgraph_Lib_V1.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
